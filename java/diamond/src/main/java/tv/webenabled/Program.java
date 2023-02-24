@@ -1,4 +1,4 @@
-package tv.webenabled.main;
+package tv.webenabled;
 
 import java.io.BufferedReader;
 import java.io.IOException;

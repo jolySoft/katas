@@ -1,4 +1,4 @@
-package tv.webenabled.main;
+package tv.webenabled;
 
 public class DiamondBuilder {
     private static String alphabet = "abcdefghijklmnopqrstuvwxyz";

@@ -1,8 +1,6 @@
-package tv.webenabled.test;
+package tv.webenabled;
 
 import org.junit.jupiter.api.Test;
-import tv.webenabled.main.DiamondBuilder;
-
 import static org.assertj.core.api.Assertions.*;
 
 public class DiamondBuilderTest {
