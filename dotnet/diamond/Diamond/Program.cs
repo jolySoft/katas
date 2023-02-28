@@ -11,8 +11,18 @@ public class Program
         {
             Console.WriteLine("Please enter a character: ");
             var input = Console.ReadLine();
-            var result = diamondBuilder.Create(input[0]);
-            result.ForEach(Console.WriteLine);
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                var result = diamondBuilder.Create(input[0]);
+                if (result.IsRight)
+                {
+                    result.Happy.ForEach(Console.WriteLine);
+                }
+                else
+                {
+                    Console.WriteLine(result.Sad);
+                }
+            }
         }
     }
 }
