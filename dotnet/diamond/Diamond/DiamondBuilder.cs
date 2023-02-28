@@ -8,7 +8,6 @@ public class DiamondBuilder
     {
         try
         {
-
             var inputChar = (char)input;
             if (inputChar == 'a' || inputChar == 'A')
                 return Either<string, List<string>>.Left("Character 'a' is not enough to create triangle");
@@ -46,43 +45,4 @@ public class DiamondBuilder
         output.AddRange(bottomStack);
         return output;
     }
-}
-
-public class Either<TSad, THappy> : IEither<TSad, THappy>
-{
-    public TSad? Sad { get; private set; }
-
-    public THappy? Happy { get; private set; }
-
-
-    private Either(TSad left)
-    {
-        Sad = left;
-    }
-
-    private Either(THappy right)
-    {
-        Happy = right;
-    }
-
-    public static Either<TSad, THappy> Left(TSad left)
-    {
-        return new Either<TSad, THappy>(left);
-    }
-
-    public static Either<TSad, THappy> Right(THappy right)
-    {
-        return new Either<TSad, THappy>(right);
-    }
-
-}
-
-public interface IEither<out TLeft, out TRight>
-{
-
-    TLeft Sad { get; }
-    TRight Happy { get; }
-
-    bool IsLeft => Sad != null;
-    bool IsRight => Happy != null;
 }
