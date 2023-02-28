@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-20.04" type="wsl" uuid="369b34d7-b916-404c-a492-a4f72f8ff907">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-20.04" />
+          <option name="projectRootOnTarget" value="/mnt/c/Users/jol/AppData/Local/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/jbr/bin&#10;/diamond" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/home/linuxbrew/.linuxbrew/Cellar/openjdk/19.0.2" />
+            <option name="javaVersionString" value="19.0.2" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
