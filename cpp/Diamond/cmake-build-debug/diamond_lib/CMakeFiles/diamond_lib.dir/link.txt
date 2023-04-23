@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdiamond_lib.a CMakeFiles/diamond_lib.dir/DiamondWorker.cpp.o
+/usr/bin/ranlib libdiamond_lib.a
