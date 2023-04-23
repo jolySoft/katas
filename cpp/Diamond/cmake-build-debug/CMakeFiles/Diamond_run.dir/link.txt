@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Diamond_run.dir/main.cpp.o -o Diamond_run  diamond_lib/libdiamond_lib.a 
