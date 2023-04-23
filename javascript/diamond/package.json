@@ -1,0 +1,19 @@
+{
+  "name": "diamond",
+  "version": "1.0.0",
+  "description": "Javascript implementation of Diamond Kata",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^4.6.0"
+  }
+}
